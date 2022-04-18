@@ -12,5 +12,4 @@ Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem 
 
 <a href="C:\Users\Pichau\Desktop\portfolio\teste-responsivo\index.html">E esse foi um teste de responsividade que eu criei.</a>
 
-<a href="C:\Users\Pichau\Desktop\portfolio\teste-responsivo">E esse foi um teste de responsividade que eu criei.</a>
 
