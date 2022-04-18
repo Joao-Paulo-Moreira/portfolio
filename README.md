@@ -10,8 +10,7 @@ Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem 
 
 <a href="C:\Users\Pichau\Desktop\portfolio\RPG-o-que-e\index.htm">Esse é um projeto que eu fiz por conta própria falando sobre o RPG de mesa, utilizando HTML e css</a>
 
-<<<<<<< HEAD
 <a href="C:\Users\Pichau\Desktop\portfolio\teste-responsivo\index.html">E esse foi um teste de responsividade que eu criei.</a>
-=======
+
 <a href="C:\Users\Pichau\Desktop\portfolio\teste-responsivo">E esse foi um teste de responsividade que eu criei.</a>
->>>>>>> 676d1e4490352bb65c531f2d7d92ba582b567385
+
