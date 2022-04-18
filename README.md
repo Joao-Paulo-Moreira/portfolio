@@ -10,5 +10,5 @@ Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem 
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/teste-responsivo/">E esse foi um teste de responsividade que eu criei.</a>
 
-PS: esse portfólio estara em constante atualização
+PS: esse portfólio estará em constante atualização
 
