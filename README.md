@@ -1,6 +1,6 @@
-# portifolio
+# portfolio
  
-Esse é o meu portifólio com os projetos que eu já fiz, espero que o achem bem interessante.
+Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem interessante.
 
 <a href="C:\Users\Pichau\Desktop\portifolio\calculadora">Esse projeto é uma calculadora utilizando HTML, css e javascript</a>
 
