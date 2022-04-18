@@ -1,0 +1,209 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@300&display=swap'); 
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../desafio010/pacote-projeto-d010/fontes/idroid.otf);
+}
+
+:root {
+    --cor01: #c5ebd6;
+    --cor02: #83e1ad;
+    --cor03: #3ddc84;
+    --cor04: #2f8a66;
+    --cor05: #1a5c37;
+    --cor06: #063d1e;
+
+
+    --fontePadrao: Arial, Helvetica, verdana, sans-serif;
+    --fonteDestaque: 'Bebas Neue', cursive;
+    --fonteAndroide: 'idroid';
+    /*Para fazer variavel no css eu uso "--nomedavar:;"*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fontePadrao);
+ }
+
+a.externo::after {
+    content: '\1F517';
+}
+
+
+ header {
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    min-height: 140px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonteDestaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.767);
+}
+
+header > p {
+    color: white;
+    font-family: var(--fontePadrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-color: var(--cor05);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.24);
+}
+
+nav a {
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: var(--cor04);
+    border-radius: 5px;
+}
+
+
+main {
+    margin: auto;
+    max-width: 900px;
+    min-width: 320px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+main strong {
+    color: var(--cor05);
+    font-weight: bold;
+    background-color: var(--cor02);
+    padding: 2px 5px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor06);
+    padding: 2px, 4px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor03);
+}
+
+main img {
+    width: 100%;
+}
+
+img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main h1 {
+    color: var(--cor06);
+    font-family: var(--fonteAndroide);
+    font-weight: normal;
+    font-size: 1.7em;
+}
+
+
+main h2 {
+    font-family: var(--fonteAndroide);
+    color: var(--cor05);
+    font-size: 1.2em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+    text-indent: 8px;
+}
+
+.video {
+    background-color: var(--cor06);
+    margin:0px, -20px, 30px, -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor02);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.384);
+}
+
+aside h3 {
+    background-color: var(--cor05);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul {
+    list-style-type:'\2714\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: var(--cor06);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor02);
+}
