@@ -12,5 +12,7 @@ Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem 
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/projeto-landing/" target="_blank">Esse foi uma Landing Page que eu fiz.</a>
 
+<a href="https://joao-paulo-moreira.github.io/portfolio/projeto-cordel/" target="_blank">Esse projeto eu fiz em conjunto com o Curso em Vídeo do professor Guanabara, e é um Corder do poeta Milton Duarte<a>
+
 PS: esse portfólio estará em constante atualização
 
