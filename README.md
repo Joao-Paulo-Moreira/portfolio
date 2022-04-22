@@ -10,7 +10,7 @@ Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem 
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/teste-responsivo/">Esse foi um teste de responsividade que eu criei.</a>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/landing-page/">Esse foi uma Landing Page que eu fiz.</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/projeto-landing/">Esse foi uma Landing Page que eu fiz.</a>
 
 PS: esse portfólio estará em constante atualização
 
