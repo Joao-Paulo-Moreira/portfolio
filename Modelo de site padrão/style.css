@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+:root {
+    --corFundo:#003366;
+    --fundoHover: #1A4876;
+    --wppCor: #239529;
+    --wppHover: #18791c;
+    --atendimentoCor: #048676;
+    --atendimentoHover: #13695f;
+    --corBotao: #72120B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: var(--corFundo);
+    color: white;
+    padding:10px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+#atendimentoWpp a, #atendimentoOnline a{
+    color: white;
+    text-decoration: none;
+}
+
+#atendimentoWpp {
+    background-color: var(--wppCor);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#atendimentoWpp:hover {
+    background-color: var(--wppHover);
+}
+
+#atendimentoOnline {
+    background-color: var(--atendimentoCor);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#atendimentoOnline:hover {
+    background-color: var(--atendimentoHover);
+}
+
+#imgLogo {
+    position: relative;
+    left: 30%;
+}
+
+nav {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+
+nav a:hover {
+    background-color: #003366;
+    color: white;
+    border-radius: 15px;
+}
+
+#img1 {
+    margin-top: 15px;
+}
+
+#primeiroArtigo {
+    margin: auto;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+#primeiroArtigo > h1 {
+    font-size: 3em;
+    color: var(--corBotao);
+}
+
+h1 > span {
+    color: #003366;
+}
+
+#botaoMain {
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
+    padding: 10px;
+    font-size: 1.1em;
+    width:20%;
+    border-radius: 10px;
+    background-color: var(--corBotao);
+    color: white;
+    border: 1px solid var(--corBotao);
+}
+
+#box01 {
+    margin-top: 40px;
+    position: relative;
+    left: 30%;
+    box-shadow: 1px 1px 4px grey;
+}
+
+#box {
+    background-color: var(--corFundo);
+    columns: 3;
+    max-height: 90vh;
+    
+    padding: 10px;
+    max-width: 100%;
+}
+
+.caixa {
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgba(251, 251, 251, 0.13);
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.caixa:hover {
+    background-color: #1A4876;
+}
+
+.caixa > h2 {
+    padding: 10px;
+}
+.botaoBox {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    background-color: var(--corBotao);
+    border: 1px solid var(--corBotao);
+}
+
+aside span {
+    color: var(--corFundo);
+}
+
+aside {
+    text-align: center;
+    color: var(--corBotao);
+    font-size: 1.6em;
+}
+
+form{
+    width: 446px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    width: 100%;
+    padding:20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.336);
+    box-sizing: border-box;
+    font-size: .8em;
+    border-radius: 7px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 19px 20px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.336);
+    box-sizing: border-box;
+    font-size: .8em;
+
+}
+
+#botaoForm {
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+    width: 35vw;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font: bold;
+    background-color: var(--corBotao);
+    border: 1px solid var(--corBotao);
+}
+
+footer {
+    background-color: var(--corFundo);
+    color: white;
+    text-align: center;
+}
+
+#rodapeTel{ 
+    background-color: var(--wppCor);
+    padding: 15px;
+    width: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#rodapeMail {
+    background-color: var(--atendimentoCor);
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#rodapeMail:hover {
+    background-color: var(--atendimentoHover);
+}
+
+#rodapeTel:hover {
+    background-color: var(--wppHover);
+}
+
+.secaoMeio {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#rodapeEnd{
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
