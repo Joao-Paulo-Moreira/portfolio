@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+:root {
+    --corFundo: #1c1c1cbb;
+    --corEfeito: #191970;
+    --fonteBody: Nunito,  sans-serif;
+    --fonteTexto: 'Yellowtail', cursive;
+    --fonteTitulo: 'Asap', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonteBody);
+    background-color: var(--corFundo);
+}
+
+h2, h3 {
+    font-family: var(--fonteTitulo);
+    color: white;
+}
+
+.botao {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--corEfeito);
+    font-size: .9em;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--corEfeito);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: var(--fonteTexto);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+ul li a:hover {
+    background-color: lightgrey;
+    color: grey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('imgs/camera.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px  10px 20px 20px;
+    background-color: var(--corEfeito);
+    color: white;
+}
+
+#sobre .botao{
+    background-color: lightgrey;
+    color: grey;
+}
+
+#sobre h2 {
+    color: white;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+
+#servicos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#fotos h2 {
+    margin-bottom: 20px;
+}
+
+#fotos img {
+    width: 100%;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#contato a {
+    color: white;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--corEfeito);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: .4s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: lightgrey;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header {
+        height: 60vh;
+        justify-content: center;
+    }
+
+    #sobre {
+        height: 25vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    #fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #fotos h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #fotos img {
+        width: 33.333333%;
+    }
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p {
+        width: 100%;
+    }
+}
