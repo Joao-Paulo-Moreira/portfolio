@@ -24,4 +24,6 @@ PS: esse portfólio estará em constante atualização
 <p>Esse primeiro projeto é de um site de uma emrpesa que vende algum produto. contendo as informações da empresa, informações sobre parceiros, alguns produtos e uma página de contato para ter um canal de comunicação com a empresa. </p>
 <p>Linguagens usadas, HTML5 e CSS3</p>
 
-<a href"https://joao-paulo-moreira.github.io/portfolio/padrao-01/">Link do site</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/padrao-01/">Link do site</a>
+
+<p>OBS. o responsivo está sendo feito.</p>
