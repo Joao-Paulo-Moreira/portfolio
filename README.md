@@ -1,6 +1,6 @@
 # portfolio
  
-<h1>Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem interessante.</h1>
+<h2>Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem interessante.</h2>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/calculadora/" target="_blank">Esse projeto é uma calculadora utilizando HTML, css e javascript</a>
 
