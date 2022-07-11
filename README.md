@@ -1,6 +1,6 @@
 # portfolio
  
-Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem interessante.
+<h1>Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem interessante.</h1>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/calculadora/" target="_blank">Esse projeto é uma calculadora utilizando HTML, css e javascript</a>
 
@@ -18,3 +18,10 @@ Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem 
 
 PS: esse portfólio estará em constante atualização
 
+<h2>Projetos padrões que eu estou fazendo</h2>
+
+<h3>Site padrão de empresa - 01</h3>
+<p>Esse primeiro projeto é de um site de uma emrpesa que vende algum produto. contendo as informações da empresa, informações sobre parceiros, alguns produtos e uma página de contato para ter um canal de comunicação com a empresa. </p>
+<p>Linguagens usadas, HTML5 e CSS3</p>
+
+<a href"https://joao-paulo-moreira.github.io/portfolio/padrao-01/">Link do site</a>
