@@ -16,6 +16,8 @@
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/meu-site/" target="_blank"> Essa é uma homepage responsiva, com HTML e CSS</a>
 
+<a href="joao-paulo-moreira.github.io/portfolio/product-preview-card-component-main/" target="_blank">Um preview card feito em html, css e javascript</a>
+
 PS: esse portfólio estará em constante atualização
 
 <h2>Projetos padrões que eu estou fazendo</h2>
