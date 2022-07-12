@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
+
+
+:root {
+    --fonte: 'Fraunces', serif;
+    --green: #3E8168;
+    --background-white: #F2E9E2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--background-white);
+}
+
+.content {
+    height: 450px;
+    background: white;
+    width: 633px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: 1px 1px 1px;
+    border-radius: 10px;
+}
+
+.content-img img {
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.content-txt {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 14px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-txt h1 {
+    padding: 20px 0px;
+    font-size: 19px;
+    color: rgb(56, 56, 56);
+    font-family: var(--fonte);
+    font-weight: 500;
+}
+
+.content-txt h2 {
+    padding-top: 40px;
+    font-family: var(--fonte);
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.content-txt p {
+    font-family: var(--fonte);
+    font-weight: 300;
+    color: grey;
+    font-size: 14px;
+}
+
+.value {
+    display: flex;
+    padding: 10px 0px;
+}
+
+.value p {
+    padding-left: 20px;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.new-value p {
+    font-size: 30px;
+    color: var(--green);
+}
+
+.old-value p {
+    padding: 10px;
+    color: rgb(56, 56, 56);
+    text-decoration: line-through;
+}
+
+.cart-button {
+    padding-top: 25px;
+}
+
+.cart-button button {
+    width: 305px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--green);
+    font-size: 18px;
+    font-family: var(--fonte);
+    font-weight: 500;
+    cursor: pointer;
+    border: var(--green);
+    transition: .5s;
+}
+
+.cart-button button:hover {
+    background-color: #1a805b;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 39vh;
+    color: black;
+}
+
+.attribution a {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    color: black;
+}
