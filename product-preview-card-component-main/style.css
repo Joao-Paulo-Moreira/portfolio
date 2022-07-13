@@ -126,3 +126,25 @@ body {
     text-decoration: underline;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-wrap: wrap;
+        width: 300px;
+        height: 200vh;
+    }
+
+.content img {
+    border-radius: 0px;
+    height: 446px;
+    width: 101%;
+} 
+
+.content-txt {
+    width: 270px;
+}
+
+.cart-button button {
+    width: 273px;
+}
+}
