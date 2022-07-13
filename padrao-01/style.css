@@ -1301,6 +1301,12 @@ ul.noBorder li i {
         max-width: 100%;
         box-sizing: border-box
     }
+
+.promos {}
+
+.promos {
+    flex-wrap: wrap;
+}
     .conteudo-pages {
         padding: 2%
     }
