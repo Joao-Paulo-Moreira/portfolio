@@ -27,5 +27,6 @@ PS: esse portfólio estará em constante atualização
 <p>Linguagens usadas, HTML5 e CSS3</p>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/padrao-01/">Link do site</a>
-
-<p>OBS. o responsivo está sendo feito.</p>
+ 
+ <hr>
+ 
