@@ -18,6 +18,8 @@
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/product-preview-card-component-main/" target="_blank">Um preview card feito em html, css e javascript</a>
 
+<a href="https://joao-paulo-moreira.github.io/portfolio/banner-rotativo/" target="_blank">Esse é um banner rotativo, feito com HTML CSS e Javascript puro</a>
+
 PS: esse portfólio estará em constante atualização
 
 <h2>Projetos padrões que eu estou fazendo</h2>
