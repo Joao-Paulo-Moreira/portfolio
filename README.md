@@ -28,7 +28,7 @@ PS: esse portfólio estará em constante atualização
 <p>Esse primeiro projeto é de um site de uma emrpesa que vende algum produto. contendo as informações da empresa, informações sobre parceiros, alguns produtos e uma página de contato para ter um canal de comunicação com a empresa. </p>
 <p>Linguagens usadas, HTML5 e CSS3</p>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/padrao-01/">Link do site</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/padrao-01/" target="_blank">Link do site</a>
  
  <hr>
  
@@ -37,4 +37,4 @@ PS: esse portfólio estará em constante atualização
 
  <p>Esse projeto é um projeto de 5 página de um escritório de advocacia, contendo algumas informações importantes, um resumo na home, uma pagina  "sobre nós", uma página falando das comptências, uma página mostrando os sócios e uma página contato, com links fazendo o direcionamento para o email, para uma ligação e para uma conversa no whatsapp.</p>
 
- <a href="https://joao-paulo-moreira.github.io/portfolio/escritorio-advocacia/">Link do site</a>
+ <a href="https://joao-paulo-moreira.github.io/portfolio/escritorio-advocacia/" target="_blank">Link do site</a>
