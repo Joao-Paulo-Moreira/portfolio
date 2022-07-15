@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+    --fonteMenuBotoes : 'Arimo', sans-serif;
+    --fontTextos: 'Montserrat', sans-serif;
+    --corFundo: #F8F8F9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg-img {
+    min-width: 1200px;
+    background-image: url(imgs/fundo-titulo.jpg);
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    line-height: 50px;
+}
+
+.logo-menu {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+header.menu ul {
+    display: flex;
+    margin: 0px 20px;
+}
+
+.menu ul li {
+    margin: 0px 20px;
+    list-style: none;
+    font-family: var(--fonteMenuBotoes);
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+.menu ul li a:hover {
+    color: rgb(176, 172, 172);
+}
+
+.logo a {
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+.titulo-botao h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.titulo-botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.titulo-botao button {
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    background: #ffffff0a;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 22px;
+    font-family: var(--fonteMenuBotoes);
+    color: white;
+}
+
+.titulo-botao button:hover {
+    background-color: goldenrod;
+}
+
+.boxes {
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.box {
+    text-align: center;
+    width: 270px;
+    height: 18vw;
+    margin: 20px;
+    transition: .8s;
+}
+
+.box:hover {
+    color: white;
+    background-color: goldenrod;
+    cursor: default;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.box h2 {
+    text-align: center;
+    font-family: var(--fontTextos);
+    padding: 20px 10px;
+}
+
+.box p {
+    padding: 10px;
+    font-family: var(--fontTextos);
+    line-height: 24px;
+}
+
+/*font awesome*/
+i.fa-solid.fa-briefcase {
+    font-size: 35px;
+}
+
+i.fa-solid.fa-handshake {
+    font-size: 35px;
+}
+
+i.fa-solid.fa-book-open {
+    font-size: 35px;
+}
+/*font awesome*/
+
+.artigos-geral {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.artigos {
+    padding: 1px 0px;
+    background-color: var(--corFundo);
+}
+
+article.artigo-01 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.artigo-txt-01 {
+    width: 500px;
+    padding: 15px;
+}
+
+.artigo-txt-01 p {
+    font-size: 18px;
+    font-family: var(--fontTextos);
+}
+
+article.artigo-02 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.artigo-txt-02 {
+    width: 500px;
+    padding: 15px;
+}
+
+.artigo-txt-02 p {
+    font-size: 18px;
+    font-family: var(--fontTextos);
+}
+
+aside.contato {
+    min-width: 1200px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-fale-conosco h2 {
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: var(--fontTextos);
+}
+
+.formas-de-contato {
+    text-align: center;
+}
+
+.telefone p {
+    padding: 5px 0px;
+}
+
+.email p {
+    padding: 5px 0px;
+}
+
+.redes-sociais {
+    padding: 10px 0px;
+}
+
+.rede-social {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+footer {
+    min-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p {
+    font-size: 16px;
+    font-family: var(--fontTextos);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*Pags internas*/
+
+.logo-menu-interno {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+header.menu-interno ul {
+    display: flex;
+    margin: 0px 20px;
+}
+
+.menu-interno ul li {
+    margin: 0px 20px;
+    list-style: none;
+    font-family: var(--fonteMenuBotoes);
+}
+
+.menu-interno ul li a {
+    color: grey;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+.menu-interno ul li a:hover {
+    color: black;
+}
+
+.logo-interno a {
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+.titulo-interno {
+    text-align: center;
+    margin: 55px 0px;
+    padding: 10px 0px;
+    border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+    background-image: linear-gradient(360deg, black , transparent);
+}
+
+.artigo-01-txt {
+    width: 750px;
+}
+
+.artigo-01-txt h2 {
+    font-size: 21px;
+    font-family: var(--fontTextos);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.artigo-01-txt p {
+    font-family: var(--fontTextos);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.cor-fundo {
+    background-color: var(--corFundo);
+    height: 35vh;
+    margin: 50px 0px;
+}
+
+article.artigo-02-interno {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+article.artigo-02-interno p {
+    width: 750px;
+}
+
+.artigo-02-txt {
+    margin: 0px 25px;
+}
+
+.artigo-02-txt h2 {
+    font-size: 21px;
+    font-family: var(--fontTextos);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.artigo-02-txt p {
+    font-family: var(--fontTextos);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+article.artigo-03 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.artigo-03-txt {
+    width: 750px;
+}
+
+.artigo-03-txt h2 {
+    font-size: 21px;
+    font-family: var(--fontTextos);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.artigo-03-txt p {
+    font-family: var(--fontTextos);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.box-parallax {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url("imgs/3.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position:
+    left  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lista-txt {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.txt-da-lista {
+    width: 750px;
+}
+
+.txt-da-lista p {
+    font-family: var(--fontTextos);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.itens-lista {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.itens-lista ul {
+    columns: 5;
+    padding: 60px 0px;
+}
+
+.itens-lista ul li {
+    font-family: var(--fontTextos);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.box-interna {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.245);
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.box-interna:hover {
+    background-color: rgba(0, 0, 0, 0.478);
+    cursor: default;
+}
+
+.box-interna h3 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--fontTextos);
+}
+
+.box-interna p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--fontTextos);
+}
+
+i {
+    font-size: 35px;
+    padding: 10px 0px;
+    color: white;
+}
+
+.box-funcionarios {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.funcionario {
+    margin: 15px;
+}
+
+.funcionario img {
+    height: 235px;
+    border-radius: 10px;
+}
+
+.info-foto {
+    width: 250px;
+}
+
+.info-foto h3 {
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--fontTextos);
+}
+
+.info-foto p{
+    font-size: 15px;
+    text-align: center;
+    font-family: var(--fontTextos);
+}
+
+.contato-geral {
+    display: flex;
+    width: 1200px;
+    margin: 120px auto;
+    justify-content: center;
+}
+
+.meios-de-contato {
+    font-size: 25px;
+    width: 750px;
+}
+
+.meios-de-contato p {
+    text-align: center;
+    font-family: var(--fontTextos);
+}
+
+.meios-de-contato a {
+    text-align: center;
+    font-family: var(--fontTextos);
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.meios-de-contato a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mail, .tel, .wpp {
+    padding: 10px 0px;
+}

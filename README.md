@@ -32,3 +32,9 @@ PS: esse portfólio estará em constante atualização
  
  <hr>
  
+
+ <h3>Esse é um projeto de escritório de advocacia</h3>
+
+ <p>Esse projeto é um projeto de 5 página de um escritório de advocacia, contendo algumas informações importantes, um resumo na home, uma pagina  "sobre nós", uma página falando das comptências, uma página mostrando os sócios e uma página contato, com links fazendo o direcionamento para o email, para uma ligação e para uma conversa no whatsapp.</p>
+
+ <a href="https://joao-paulo-moreira.github.io/portfolio/escritorio-advocacia/">Link do site</a>
