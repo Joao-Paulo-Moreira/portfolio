@@ -1,24 +1,29 @@
 # portfolio
- 
-<h2>Esse é o meu portfólio com os projetos que eu já fiz, espero que o achem bem interessante.</h2>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/calculadora/" target="_blank">Esse projeto é uma calculadora utilizando HTML, css e javascript</a>
+<p>Meu nome é João Paulo Moreira, tenho 22 anos de idade, e sou um desenvolvedor Front-end. <br>
+Essa página tem alguns projetos que eu já fiz, tanto projetos como testes e exercícios, como projetos reais e publicados. <br>
+Atualmente estou trabalhando como web developer freelancer. <br>
+</p>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/projeto-android/android" target="_blank">Esse projeto é uma página responsiva, utilizando HTML e css, que fiz para o curso em vídeo</a>
+<h2>Projetos já feitos.</h2>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/RPG-o-que-e/" target="_blank">Esse é um projeto que eu fiz por conta própria falando sobre o RPG de mesa, utilizando HTML e css</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/calculadora/" target="_blank"> Calculadora utilizando HTML, css e javascript</a>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/teste-responsivo/" target="_blank">Esse foi um teste de responsividade que eu criei.</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/projeto-android/android" target="_blank"> Página responsiva, utilizando HTML e css, que fiz para o curso em vídeo</a>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/projeto-landing/" target="_blank">Esse foi uma Landing Page que eu fiz.</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/RPG-o-que-e/" target="_blank">Página falando sobre RPG de mesa. HTML e CSS</a>
+
+<a href="https://joao-paulo-moreira.github.io/portfolio/teste-responsivo/" target="_blank">Teste de responsividade.</a>
+
+<a href="https://joao-paulo-moreira.github.io/portfolio/projeto-landing/" target="_blank">Landing Page.</a>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/projeto-cordel/" target="_blank">Esse projeto eu fiz em conjunto com o Curso em Vídeo do professor Guanabara, e é um Cordel do poeta Milton Duarte<a>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/meu-site/" target="_blank"> Essa é uma homepage responsiva, com HTML e CSS</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/meu-site/" target="_blank">homepage responsiva, com HTML e CSS</a>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/product-preview-card-component-main/" target="_blank">Um preview card feito em html, css e javascript</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/product-preview-card-component-main/" target="_blank">Preview card feito em html, css e javascript</a>
 
-<a href="https://joao-paulo-moreira.github.io/portfolio/banner-rotativo/" target="_blank">Esse é um banner rotativo, feito com HTML CSS e Javascript puro</a>
+<a href="https://joao-paulo-moreira.github.io/portfolio/banner-rotativo/" target="_blank">banner rotativo, feito com HTML CSS e Javascript puro</a>
 
 PS: esse portfólio estará em constante atualização
 
@@ -48,3 +53,7 @@ PS: esse portfólio estará em constante atualização
 <p>Um site de uma micro empresa que faz torresmos em rolo, na região de araras-SP</p>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/porksmania/" target="_blank">Link do site</a>
+
+<h3>Contato</h3>
+<p>E-mail:<a href="mailto:jpmoreira195@outlook.com">jpmoreira195@outlook.com</a></p>
+<p>Telefone:<a href="api.whatsapp.com/send/?phone=5519995020283&text&type=phone_number&app_absent=0" target="_blank">(19) 9 9502-0283<a></p>
