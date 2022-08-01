@@ -25,6 +25,8 @@ Atualmente estou trabalhando como web developer freelancer. <br>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/banner-rotativo/" target="_blank">banner rotativo, feito com HTML CSS e Javascript puro</a>
 
+<a href="https://joao-paulo-moreira.github.io/portfolio/intro-section-with-dropdown-navigation-main/" target="_blank">Página inicial feito com HTML, CSS, JS e bootstrap</a>
+
 PS: esse portfólio estará em constante atualização
 
 <h2>Projetos padrões que eu estou fazendo</h2>
