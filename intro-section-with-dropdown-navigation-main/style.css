@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte: : 'Epilogue', sans-serif;;
+}
+
+body {
+    background-image: url('images/image-hero-desktop.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 94% 25%;
+}
+
+.navbar-brand {
+    font-weight: bold !important;
+}
+
+#login {
+    border: none;
+    color: black;
+    margin-left: 1px;
+    transition: .6s;
+}
+
+#login:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+#register {
+    border: none;
+    color: black;
+    margin-left: 1px;
+    transition: .6s;
+}
+
+#register:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+main.content {
+    max-width: 600px;
+    margin: 180px 60px;
+}
+
+main.content h1 {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: var(--fonte);
+}
+
+main.content p {
+    font-size: 20px;
+    padding: 44px 0px 27px;
+    max-width: 475px;
+    font-family: var(--fonte);
+}
+
+.main-button {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    transition: .6s;
+    width: 130px;
+    height: 40px;
+}
+
+.main-button:hover{
+    color: black;
+    background-color: white;
+}
+
+.clients {
+    max-width: 1200px;
+    margin: 0px 8%;
+}
+
+.clients img {
+    margin: 15px;
+}
+
+.attribution {
+    font-size: 18px;
+    font-family: var(--fonte);
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+
+    @media only screen and (max-width: 900px) {
+        body {
+            background-image: url('images/image-hero-mobile.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 0px 55px;
+        }
+
+        main {
+            padding-left: 225px;
+            padding-top: 580px;
+        }
+
+        .main-button {
+            width: 100%;
+            height: 10vh;
+        }
+
+        .clients img {
+        width: 85px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        main {
+            padding: 10px;
+            padding-top: 245px;
+        }
+    } 
