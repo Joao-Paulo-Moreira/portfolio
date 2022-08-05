@@ -27,6 +27,8 @@ Atualmente estou trabalhando como web developer freelancer. <br>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/intro-section-with-dropdown-navigation-main/" target="_blank">Página inicial feito com HTML, CSS, JS e bootstrap</a>
 
+<a href="https://joao-paulo-moreira.github.io/portfolio/pokedex/">Uma Popkédex feita com HTML, css, javascript e API</a>
+
 PS: esse portfólio estará em constante atualização
 
 <h2>Projetos padrões que eu estou fazendo</h2>
