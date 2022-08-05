@@ -1,0 +1,10 @@
+{
+    "name": "Minha primeira extensão! Por João PAulo Moreira",
+    "description": "Essa é a minha primeira extensão!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "index.html"
+    }
+}

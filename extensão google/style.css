@@ -1,0 +1,38 @@
+:root {
+    --cinzaClaro: rgb(223, 223, 223);
+    --verdeClaro: #428d70;
+    --verdeEfeito: #499a7b;
+}
+
+form {
+    background-color: var(--cinzaClaro);
+    width: 300px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--cinzaClaro);
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: var(--verdeClaro);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: var(--verdeEfeito);
+}
