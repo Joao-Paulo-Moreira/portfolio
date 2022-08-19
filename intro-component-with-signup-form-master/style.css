@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontText);
+}
+
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --greenEffect: hsl(154, 81%, 45%);
+    --greenSecondEffetc: hsla(154, 59%, 51%, 0.76);
+    --blue: hsl(248, 32%, 49%);
+    --borderBlue: hsl(249, 18%, 31%);
+    --fontText: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: var(--red);
+    overflow-y: hidden;
+}
+
+.all {
+    margin: 15% auto;
+    display: flex;
+}
+
+main {
+    margin: 12px auto;
+    width: 400px;
+    padding: 5%;
+}
+
+main h1 {
+    display: flex;
+    color: white;
+    font-size: 35px;
+    font-family: var(--fontText);
+    font-weight: 700;
+}
+
+main p {
+    color: white;
+    font-size: 16px;
+}
+
+.formAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+button.infoButton {
+    width: 62%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    border: none !important;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.403);
+}
+
+#form {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.406);
+}
+
+input {
+    padding: 12px;
+    width: 94%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+input:hover {
+    border: 1px solid var(--borderBlue);
+}
+
+button.button {
+    margin-top: 10px;
+    width: 97%;
+    padding: 15px;
+    background-color: var(--green);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-left: 2%;
+    box-shadow: 2px 4px var(--greenEffect);
+    border-radius: 10px;
+}
+
+button.button:hover {
+    cursor: pointer;
+    background-color: var(--greenSecondEffetc);
+    box-shadow: 2px 4px var(--greenSecondEffect);
+}
