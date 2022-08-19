@@ -110,3 +110,17 @@ button.button:hover {
     background-color: var(--greenSecondEffetc);
     box-shadow: 2px 4px var(--greenSecondEffect);
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .all {
+        flex-wrap: wrap;
+    }
+
+    .formAll {
+        width: 100%;
+    }
+}
