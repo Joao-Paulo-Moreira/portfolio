@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 17px; 
+      text-align: center; 
+      margin-top: 275px;
+      color: white;
+    }
+    .attribution a { color: grey; }
+  </style>
+</head>
+<body id="backGround">
+
+  <div class="fundo" >
+    <div class="calculadora">
+        <div class="title">
+          <div class="title-h1">
+            <h1  id="headerOne">Calc</h1>
+          </div>
+        </div>
+        <p id="resultado"></p>
+        <div class="baseCalc" id="baseCalc">
+          <table>
+            <tr>
+              <td>
+                <button class="botao" id="teste" onclick="insert('7')">7</button>
+              </td>
+              <td>
+                <button class="botao" onclick="insert('8')">8</button>
+              </td>
+              <td>
+                <button class="botao" onclick="insert('9')">9</button>
+              </td>
+              <td>
+                <button class="botao" id="buttonDel" onclick="back()">DEL</button>
+              </td>
+            </tr>
+        
+            <tr>
+              <td>
+                <button class="botao" onclick="insert('4')">4</button>
+              </td>
+              <td>
+                <button class="botao" onclick="insert('5')">5</button>
+              </td>
+              <td>
+                <button class="botao" onclick="insert('6')">6</button>
+              </td>
+              <td>
+                <button class="botao" onclick="insert('+')">+</button>
+              </td>
+            </tr>
+        
+            <tr>
+              <td>
+                <button class="botao" onclick="insert('1')">1</button>
+            </td>
+            <td>
+                <button class="botao" onclick="insert('2')">2</button>
+            </td>
+            <td>
+                <button class="botao" onclick="insert('3')">3</button>
+            </td>
+            <td>
+              <button class="botao" onclick="insert('-')">-</button>
+            </td>
+            </tr>
+        
+            <tr>
+              <td>
+                <button class="botao" onclick="insert('.')">.</button>
+            </td>
+            <td>
+              <button class="botao" onclick="insert('0')">0</button>
+            </td>
+            <td>
+              <button class="botao" onclick="insert('/')">/</button>
+          </td>
+          <td>
+            <button class="botao" onclick="insert('*')">x</button>
+        </td>
+            </tr>
+        
+            <tr>
+              <td colspan="2">
+                <button class="botao reset" id="buttonReset" onclick="clean()">RESET</button>
+              </td>
+              <td colspan="2">
+                <button class="botao calcular" id="buttonCalc" onclick="calcular()">=</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+          <div class="choiseTheme">
+            <div class="choose">
+              <p id="newParagraph">Choose Other Themes</p>
+            </div>
+            <div class="theme">
+              <button class="themeButton" id="themeOne" onclick="activeFirstTheme()">1</button>
+              <button class="themeButton" id="themeTwo" onclick="activeSecondTheme()">2</button>
+            </div>
+          </div>
+
+    </div>
+</div>
+
+<script src="main.js"></script>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

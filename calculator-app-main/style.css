@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+:root {
+   --darkGreyBlue :rgb(58, 71, 100);
+   --numberBox :  rgb(35, 44, 67);
+   --resultBox: rgb(24, 32, 52);
+   --redButton: hsl(6, 63%, 50%);
+   --redActive: hsl(6, 70%, 34%);
+   --blueBottom:  hsl(225, 21%, 49%);
+   --blueActive: hsl(224, 28%, 35%);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: var(--darkGreyBlue);
+}
+
+.title {
+   width: 400px;
+   padding-bottom: 10px;
+   display: flex;
+   margin: auto;
+   justify-content: space-between;
+   color: white;
+}
+
+.title-h1 h1 {
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+}
+.calculadora {
+   width: 400px;
+   margin: 25px auto;
+}
+
+#resultado {
+   text-align: end;
+   width: 380px;
+   height: 55px;
+   border: 1px solid black;
+   margin: 10px 0px;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 50px;
+   font-weight: bold;
+   color: white;
+   background-color: var(--resultBox);
+}
+
+#resultado p {
+   padding: 16px;
+}
+
+.baseCalc {
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color: var(--numberBox);
+}
+
+table {
+   margin: auto;
+}
+
+button {
+   border: none;
+   width: 80px;
+   height: 50px;
+   margin: 8px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: .5s;
+   box-shadow: 1px 1px 2px rgb(181, 181, 181);
+}
+
+button:active {
+   transform: scale(0.9);
+}
+
+button:hover {
+   background-color: rgb(181, 181, 181);
+}
+
+.reset {
+   width: 124px;
+   width: 177px;
+   background-color: var(--blueBottom);
+   transition: .5s;
+}
+
+.reset:hover {
+   background-color: var(--blueActive);
+}
+
+.calcular {
+   width: 177px;
+   background-color: var(--redButton);
+   transition: .5s;
+}
+
+.calcular:hover {
+   background-color: var(--redActive);
+}
+
+.choose p {
+   color: white;
+   text-align: center;
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.theme {
+   text-align: center;
+}
+

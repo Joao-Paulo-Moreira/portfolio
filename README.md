@@ -29,6 +29,8 @@ Atualmente estou trabalhando como web developer freelancer. <br>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/pokedex/">Uma Popkédex feita com HTML, css, javascript e API</a>
 
+<a href="https://joao-paulo-moreira.github.io/portfolio/calculator-app-main/">Uma calculadora que você pode escolher outros temas, usei javascript puro para fazer as mudanças (Eu vou atualizar esse projeto com o tempo, quero adicionar mais temas e mudar alguns algumas coisas)</a>
+
 PS: esse portfólio estará em constante atualização
 
 <h2>Projetos padrões que eu estou fazendo</h2>
