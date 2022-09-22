@@ -1,14 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+   font-family: PlusJakartaSans;
+   src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
 :root {
    --white: hsl(210, 60%, 98%);
    --veryLightGrayish: hsl(211, 68%, 94%);
    --lighttBlue:  hsl(219, 14%, 63%);
    --darkGrayish : hsl(219, 12%, 42%); 
    --veryDarkGrayish: hsl(224, 21%, 14%);
+   --blue : hsl(219, 85%, 26%);
 }
 
 * {
+   font-family: PlusJakartaSans;
    margin: 0;
    padding: 0;
 }
@@ -23,4 +30,29 @@ body {
    background-color: var(--white);
    border-radius: 20px;
    padding: 25px;
+}
+
+.flexTitleContent {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+h1 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   font-weight: 900;
+}
+
+
+.three {
+   color: white;
+   background-color: var(--blue);
+   padding: 2px 5px;
+   border-radius: 3px;
+}
+
+h2 {
+   color: var(--lighttBlue);
+   font-size: 18px;
 }
