@@ -1,2 +1,26 @@
 @charset "UTF-8";
 
+:root {
+   --white: hsl(210, 60%, 98%);
+   --veryLightGrayish: hsl(211, 68%, 94%);
+   --lighttBlue:  hsl(219, 14%, 63%);
+   --darkGrayish : hsl(219, 12%, 42%); 
+   --veryDarkGrayish: hsl(224, 21%, 14%);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: var(--veryLightGrayish);
+}
+
+.contentAll {
+   margin: 25px auto;
+   width: 70%;
+   background-color: var(--white);
+   border-radius: 20px;
+   padding: 25px;
+}
