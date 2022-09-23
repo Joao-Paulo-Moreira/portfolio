@@ -173,3 +173,69 @@ h2 {
    background-color: var(--veryLightGrayish);
    cursor: pointer;
 }
+
+.notificationKimberly {
+   margin-top: 5px;
+   padding: 15px 20px;
+   border-radius: 10px;
+   display: flex;
+}
+
+.kimberlyImg > img {
+   width: 80%;
+}
+
+.otherImg > img {
+   width : 50%;
+}
+
+.kimberlyName {
+   color: black;
+   font-weight: 900;
+}
+
+.informationKimberly > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+   padding: 0px 7px;
+}
+
+.notificationNathan {
+   margin-top: 5px;
+   padding: 15px 20px;
+   border-radius: 10px;
+   display: flex;
+}
+
+.nathanImg > img {
+   width: 100%;
+}
+
+.nathanName {
+   color: black;
+   font-weight: 900;
+}
+
+.informationNathan > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+   padding: 0px 7px;
+}
+
+.annaName {
+   color: black;
+   font-weight: 900;
+}
+
+.informationAnna > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+   padding: 0px 7px;
+}
+
+.notificationAnna {
+   margin-top: 5px;
+   padding: 15px 20px;
+   border-radius: 10px;
+   display: flex;
+}
