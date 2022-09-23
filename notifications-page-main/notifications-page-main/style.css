@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
-   font-family: PlusJakartaSans;
-   src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root {
    --white: hsl(210, 60%, 98%);
@@ -11,11 +8,12 @@
    --lighttBlue:  hsl(219, 14%, 63%);
    --darkGrayish : hsl(219, 12%, 42%); 
    --veryDarkGrayish: hsl(224, 21%, 14%);
+   --commentColor : rgb(97, 97, 97);
    --blue : hsl(219, 85%, 26%);
 }
 
 * {
-   font-family: PlusJakartaSans;
+   font-family: 'Plus Jakarta Sans', sans-serif;
    margin: 0;
    padding: 0;
 }
@@ -36,12 +34,13 @@ body {
    display: flex;
    width: 100%;
    justify-content: space-between;
+   margin-bottom: 17px;
 }
 
 h1 {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 20px;
-   font-weight: 900;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   font-size: 21px;
+   font-weight: 800;
 }
 
 
@@ -55,4 +54,122 @@ h1 {
 h2 {
    color: var(--lighttBlue);
    font-size: 18px;
+   font-weight: 600;
+}
+
+.markImg > img {
+   width: 80%;
+}
+
+.notificationMark {
+   margin-top: 5px;
+   background-color: var(--veryLightGrayish);
+   padding: 15px;
+   border-radius: 10px;
+   display: flex;
+}
+
+.markName {
+   color: black;
+   font-weight: 900;
+}
+
+.informationMark > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+}
+
+.mark {
+   color: var(--commentColor);
+   font-weight: 700;
+}
+
+.angelaImg > img {
+   width: 80%;
+}
+
+.notificationAngela {
+   margin-top: 5px;
+   background-color: var(--veryLightGrayish);
+   padding: 15px 20px;
+   border-radius: 10px;
+   display: flex;
+}
+
+.angelaName {
+   color: black;
+   font-weight: 900;
+}
+
+.informationAngela > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+}
+
+.jacobImg > img {
+   width: 80%;
+}
+
+.notificationJacob {
+   margin-top: 5px;
+   background-color: var(--veryLightGrayish);
+   padding: 15px 20px;
+   border-radius: 10px;
+   display: flex;
+}
+
+.jacobName {
+   color: black;
+   font-weight: 900;
+}
+
+.informationJacob > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+}
+
+.invite {
+   color: var(--blue);
+   font-weight: 700;
+}
+
+.invite:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.rizky {
+   margin-top: 5px;
+   padding: 15px 20px;
+   border-radius: 10px;
+   display: flex;
+}
+
+.informationRizky > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+}
+
+.rizkyName {
+   color: black;
+   font-weight: 900;
+}
+
+.notificationComment {
+   width: 85%;
+   border: 1px solid var(--lighttBlue);
+   border-radius: 5px;
+   margin: auto;
+   padding: 10px;
+   transition: .5s;
+}
+
+.notificationComment > p {
+   color: var(--lighttBlue);
+   font-weight: 600;
+}
+
+.notificationComment:hover {
+   background-color: var(--veryLightGrayish);
+   cursor: pointer;
 }
