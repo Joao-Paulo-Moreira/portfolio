@@ -171,6 +171,12 @@ h2 {
 .rizkyName {
    color: black;
    font-weight: 900;
+   transition: .2s;
+}
+
+.rizkyName:hover {
+   color: var(--blue);
+   cursor: pointer;
 }
 
 .notificationComment {
@@ -210,6 +216,12 @@ h2 {
 .kimberlyName {
    color: black;
    font-weight: 900;
+   transition: .2s;
+}
+
+.kimberlyName:hover {
+   color: var(--blue);
+   cursor: pointer;
 }
 
 .informationKimberly > p {
@@ -232,6 +244,12 @@ h2 {
 .nathanName {
    color: black;
    font-weight: 900;
+   transition: .2s;
+}
+
+.nathanName:hover {
+   color: var(--blue);
+   cursor: pointer;
 }
 
 .informationNathan > p {
@@ -243,6 +261,12 @@ h2 {
 .annaName {
    color: black;
    font-weight: 900;
+   transition: .2s;
+}
+
+.annaName:hover {
+   color: var(--blue);
+   cursor: pointer;
 }
 
 .informationAnna > p {
