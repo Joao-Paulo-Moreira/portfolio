@@ -72,6 +72,11 @@ h2 {
 .markName {
    color: black;
    font-weight: 900;
+   transition: .5s;
+}
+
+.markName:hover {
+
 }
 
 .informationMark > p {
