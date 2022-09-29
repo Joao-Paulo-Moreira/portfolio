@@ -72,11 +72,12 @@ h2 {
 .markName {
    color: black;
    font-weight: 900;
-   transition: .5s;
+   transition: .2s;
 }
 
 .markName:hover {
-
+   cursor: pointer;
+   color: var(--blue);
 }
 
 .informationMark > p {
@@ -104,6 +105,12 @@ h2 {
 .angelaName {
    color: black;
    font-weight: 900;
+   transition: .2s;
+}
+
+.angelaName:hover {
+   cursor: pointer;
+   color: var(--blue);
 }
 
 .informationAngela > p {
@@ -126,6 +133,12 @@ h2 {
 .jacobName {
    color: black;
    font-weight: 900;
+   transition: .2s;
+}
+
+.jacobName:hover {
+   color: var(--blue);
+   cursor: pointer;
 }
 
 .informationJacob > p {
