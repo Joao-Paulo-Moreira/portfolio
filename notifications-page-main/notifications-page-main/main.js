@@ -1,3 +1,3 @@
-function activeModal() {
+/*function activeModal() {
    alert('O link está funcionando')
-}
+}*/
