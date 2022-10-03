@@ -281,3 +281,14 @@ h2 {
    border-radius: 10px;
    display: flex;
 }
+
+/*modal config*/
+
+.markModal {
+   border: 2px solid black;
+}
+
+.markModal h3 {
+   font-size: 200px;
+   font-size: 20px;
+}
