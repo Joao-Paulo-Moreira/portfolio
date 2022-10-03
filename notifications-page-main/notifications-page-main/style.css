@@ -292,12 +292,15 @@ h2 {
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
-
+   height: 250px;
+   width: auto;
+   padding: 15px;
 }
 
 .markModal h3 {
    font-size: 200px;
    font-size: 20px;
+   text-align: center;
 }
 
 .modalFlexBox {
@@ -308,5 +311,7 @@ h2 {
 .followers {
    display: flex;
    flex-direction: column;
-   gap: 10px 10px;
+   gap: 15px 15px;
+   border-right: 1px solid var(--veryDarkGrayish);
+   padding: 10px;
 }
