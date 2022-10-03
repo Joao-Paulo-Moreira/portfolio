@@ -287,6 +287,12 @@ h2 {
 .markModal {
    border: 2px solid black;
    z-index: 999;
+   position: absolute;
+   background-color: aliceblue;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+
 }
 
 .markModal h3 {
@@ -297,4 +303,10 @@ h2 {
 .modalFlexBox {
    display: flex;
    flex-direction: row-reverse;
+}
+
+.followers {
+   display: flex;
+   flex-direction: column;
+   gap: 10px 10px;
 }
