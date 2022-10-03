@@ -295,6 +295,7 @@ h2 {
    height: 250px;
    width: auto;
    padding: 15px;
+   display: none;
 }
 
 .Modal h3 {
@@ -314,4 +315,35 @@ h2 {
    gap: 15px 15px;
    border-right: 1px solid var(--veryDarkGrayish);
    padding: 10px;
+}
+
+.Summary {
+   padding: 10px;
+}
+
+.nameModal {
+   font-size: 19px;
+   font-weight: 600;
+}
+
+.ageModal {
+   padding: 10px 0px;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.followButton > button{
+   width: 75px;
+   height: 28px;
+   border-radius: 10px;
+   background-color: transparent;
+   cursor: pointer;
+   box-shadow: 2px 2px 1px var(--lighttBlue);
+   transition: .3s;
+   font-weight: 500;
+}
+
+.followButton > button:hover {
+   background-color: var(--blue);
+   color: white;
 }
