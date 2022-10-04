@@ -284,7 +284,7 @@ h2 {
 
 /*modal config*/
 
-.Modal {
+.Modal, .secondModal, .thirdModal, .forthModal, .fiveModal, .sixModal, .sevenModal {
    border: 2px solid black;
    z-index: 999;
    position: absolute;
@@ -296,6 +296,8 @@ h2 {
    width: auto;
    padding: 15px;
    display: none;
+   animation: animate;
+   animation-duration: 900ms;
 }
 
 .Modal h3 {
@@ -346,4 +348,9 @@ h2 {
 .followButton > button:hover {
    background-color: var(--blue);
    color: white;
+}
+
+@keyframes animate{
+   from {opacity: 1;}
+   from {opacity: 0;}
 }
