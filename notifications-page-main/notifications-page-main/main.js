@@ -40,32 +40,32 @@ function closeModal(){
    closeModal.style.display = "none"
 }
 
-function closeModal(){
-   const closeModal = document.querySelector(".secondModal")
-   closeModal.style.display = "none"
+function closeSecondModal(){
+   const closeSecondModal = document.querySelector(".secondModal")
+   closeSecondModal.style.display = "none"
 }
 
-function closeModal() {
-   const closeModal = document.querySelector(".thirdModal")
-   closeModal.style.display = "none"
+function closeThirdModal(){
+   const closeThirdModal = document.querySelector(".thirdModal")
+   closeThirdModal.style.display = "none"
 }
 
-function closeModal() {
-   const closeModal = document.querySelector(".forthModal")
-   closeModal.style.display = "none"
+function closeForthModal(){
+   const closeForthModal = document.querySelector(".forthModal")
+   closeForthModal.style.display = "none"
 }
 
-function closeModal() {
-   const closeModal = document.querySelector(".fiveModal")
-   closeModal.style.display = "none"
+function closeFiveModal(){
+   const closeFiveModal = document.querySelector(".fiveModal")
+   closeFiveModal.style.display = "none"
 }
 
-function closeModal() {
-   const closeModal = document.querySelector(".sixModal")
-   closeModal.style.display = "none"
+function closeSixModal(){
+   const closeSixModal = document.querySelector(".sixModal")
+   closeSixModal.style.display = "none"
 }
 
-function closeModal() {
-   const closeModal = document.querySelector(".sevenModal")
-   closeModal.style.display = "none"
+function closeSevenModal(){
+   const closeSevenModal = document.querySelector(".sevenModal")
+   closeSevenModal.style.display = "none"
 }
