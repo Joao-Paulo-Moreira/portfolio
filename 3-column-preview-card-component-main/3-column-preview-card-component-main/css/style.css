@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/*Use this color for text in the button*/
+/*Use this color for text in the button*/
+/*Use this color for text in the button*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.contentAll {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  display: flex;
+}
+.contentAll .sedans {
+  background-color: hsl(31deg, 77%, 52%);
+  width: 200px;
+  height: 400px;
+  padding: 25px;
+  color: white;
+  font-family: "Big Shoulders Display", cursive;
+  line-height: 30px;
+}
+.contentAll .sedans h2 {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 25px 0px;
+}
+.contentAll .sedans button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 100px;
+  border: 1px solid hsl(31deg, 77%, 52%);
+  color: hsl(31deg, 77%, 52%);
+  transition: 0.5s;
+}
+.contentAll .sedans button:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+.contentAll .suvs {
+  background-color: hsl(184deg, 100%, 22%);
+  width: 200px;
+  height: 400px;
+  padding: 25px;
+  color: white;
+  font-family: "Big Shoulders Display", cursive;
+  line-height: 30px;
+}
+.contentAll .suvs h2 {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 25px 0px;
+}
+.contentAll .suvs button {
+  border: 1px solid hsl(184deg, 100%, 22%);
+  color: hsl(184deg, 100%, 22%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+.contentAll .suvs button:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+.contentAll .luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  width: 200px;
+  height: 400px;
+  padding: 25px;
+  color: white;
+  line-height: 30px;
+}
+.contentAll .luxury h2 {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 25px 0px;
+}
+.contentAll .luxury button {
+  border: 1px solid hsl(179deg, 100%, 13%);
+  color: hsl(179deg, 100%, 13%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 70px;
+}
+.contentAll .luxury button:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 100%;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media only screen and (max-width: 900px) {
+  .contentAll {
+    flex-wrap: wrap;
+  }
+  .attribution {
+    margin-top: 1470px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
