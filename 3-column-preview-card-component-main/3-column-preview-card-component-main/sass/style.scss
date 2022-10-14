@@ -76,6 +76,7 @@ $secondFont: 'Lexend Deca', sans-serif /*weight 700*/;
       height: 400px;
       padding: 25px;
       color: white;
+      font-family: $firstFont;
       line-height: 30px;
       h2 {
          font-family: $secondFont;
