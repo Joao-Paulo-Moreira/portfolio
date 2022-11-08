@@ -31,7 +31,10 @@ Atualmente estou trabalhando como web developer freelancer. <br>
 
 <a href="https://joao-paulo-moreira.github.io/portfolio/calculator-app-main/">Uma calculadora que você pode escolher outros temas, usei javascript puro para fazer as mudanças (Eu vou atualizar esse projeto com o tempo, quero adicionar mais temas e mudar alguns algumas coisas)</a>
 
-PS: esse portfólio estará em constante atualização
+<a href="https://onebitxpagina.netlify.app" target="_blank">Um site que eu fiz com, HTML, SASS, bootstrap. Esse foii o projeto final do modulo de bootstratp do curtso de fullstack do  one bit code.<a>
+
+
+<p>PS: esse portfólio estará em constante atualização</p>
 
 <h2>Projetos padrões que eu estou fazendo</h2>
 
